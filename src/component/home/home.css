@@ -1,0 +1,251 @@
+.intro-container{
+    height: 95vh;
+    margin-top: -135px; 
+    display:flex; flex-direction:column;
+    flex: 1;
+}
+
+.wrapper{
+    margin-top: 0;
+    /* height: 83vh; */
+    background-image: url(../../assets/samsung_hq.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 92%; */
+    padding: 50px;
+    z-index: -10;
+}
+
+.intro-text{
+    margin-top: 300px;
+}
+
+.text h2, h1{
+    z-index: 10;
+    position: relative;
+    margin-left: -50px;
+}
+
+.intro-text h2{
+    font-weight: 700;
+    line-height: 29px;
+    margin-top: 14px;
+}
+
+.name{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color:var(--black);
+    margin-top: 14px;
+}
+
+.name span{
+    color: var(--dark-blue);
+}
+
+.intro-button{
+    margin-left: -50px;
+    margin-top: 50px;
+}
+
+/* .intro-button button{
+    margin-left: 20px;
+} */
+
+.button1 a{
+    color: white;
+}
+
+.button1 a:hover{
+    color: var(--dark-blue);
+}
+
+.rafi1{
+    position: absolute;
+    height: 327px;
+    width: 317px;
+    left: 750px;
+    margin-top: -258px;
+    background: linear-gradient(180deg, #03045E 0%, rgba(3, 4, 94, 0) 100%);
+    border: 2px solid #00B4D8;
+    backdrop-filter: blur(5px);
+    z-index: 10;
+
+    border-radius: 100px;
+}
+
+.intro-img::after{
+    background: linear-gradient(214.83deg, #03045E 14.26%, rgba(3, 4, 94, 0) 76.71%);
+    transform: rotate(178.32deg);
+    content: '';
+    height: 178px;
+    width: 178px;
+    position: absolute;
+    right: 0.5%;
+    margin-top: -310px;
+    border-radius:50% ;
+    z-index: 1;
+}
+
+/* ====================================== About US ============================================== */
+
+.me-container{
+    background-color: #292929;
+    width: 100%;
+    height: 100vh;
+}
+
+.me-flex{
+    display: flex;
+}
+
+.me-img{
+    height: 344px;
+    width: 516px;
+    /* transform: rotate(7deg); */
+    margin-top: 140px;
+    transition: var(--transition);
+}
+
+.me-img-cont{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50px;
+    background: linear-gradient(45deg, transparent,var(--dark-blue), transparent);
+    height: 320px;
+    width: 320px;
+    margin-top: 150px;
+    display: grid;
+    place-items: center;
+}
+
+.me-img:hover{
+    transform: rotate(0deg);
+}
+
+.me-text{
+    margin-top: 140px;
+    margin-left: 100px;
+}
+
+.me-title{
+    color: var(--dark-blue);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 29px;
+}
+
+.me-parag{
+    width: 500px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 15px;
+}
+
+.me-parag b, .me-parag i{
+    color: var(--soft-blue);
+}
+
+.me-text button{
+    margin-top: 50px;
+}
+
+.btnme1{
+    margin-left: 20px;
+}
+
+/* ================================== Prinsip ========================================== */
+.prinsip-container{
+    margin-top: 6rem;
+}
+
+.prinsip-title{
+    color: var(--dark-blue);
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 48px;
+}
+
+.prinsip-content{
+    margin:5rem 6rem;
+    display: flex;
+  flex-wrap: wrap;
+    gap: 50px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.prinsip-item{
+    color: #000;
+    border-radius: 16px;
+    padding: 7px;
+    width: 237px;
+    height: 237px;
+    background: #FFFFFF;
+    
+    border: 2px solid #0C4DA2;
+    border-radius: 30px;
+}
+
+
+.prinsip-img{
+    width: 132px;
+    height: 110px;
+    margin-top: 1rem;
+}
+
+
+.prinsip-desc{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/*=========================== MEDIA QUERIES (SMALL DEVICES)==========================*/
+@media screen and (max-width: 600px){
+
+   .rafi1{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 50px;
+    margin-left: 30px;
+   }
+
+   .intro-button{
+    margin-left: 40px;
+    margin-top: 20px;
+   }
+
+   .btnabme{
+    margin-top: 15px;
+   }
+
+   .wrapper{
+    height: 150vh;
+    width: 75%;
+   }
+
+   .me-container{
+    height: 150vh;
+}
+   .me-text{
+    margin-top: 550px;
+    margin-left: -300px;
+   }
+
+   .me-parag{
+    width: 300px;
+   }
+
+   .btnme1{
+    margin-left: 5px;
+   }
+}

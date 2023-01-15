@@ -1,0 +1,62 @@
+footer{
+    display: flex;
+    padding: 20px;
+    color: black;
+    background-color: white;
+    margin-top: 7rem;
+    width: 96.8%;
+    border-top: 1px solid #000000;
+}
+
+footer p{
+    margin-left: 1rem;
+}
+
+.sosmed-foot {
+    display: flex;
+    margin-left: 43px;
+    position: absolute;
+    right: 5%;
+}
+
+.sosmed-foot li{
+    margin-left: 13px;
+}
+
+.sosmed-foot svg{
+    width: 20px;
+    height: 20px;
+    fill: black;
+}
+
+.sosmed-foot svg:hover{
+   fill: var(--dark-blue);
+}
+
+.up{
+    margin-left: 20px;
+}
+
+.up svg{   
+    width: 27px;
+    height: 27px;
+    margin-top: -5px;
+    fill: black;
+}
+
+/*=========================== MEDIA QUERIES (SMALL DEVICES)==========================*/
+@media screen and (max-width: 600px){
+    footer{
+        display: grid;
+    }
+
+    .sosmed-foot {
+        margin-left: -10px;
+        left: 5%;
+        margin-top: 10px;
+    }
+
+    .up{
+        margin-left: 150px;
+    }
+}
