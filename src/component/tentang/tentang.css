@@ -1,0 +1,227 @@
+.tentang-container{
+    margin-top: auto;
+    display:flex; flex-direction:column;
+    flex: 1;
+    min-height: 100vh;
+}
+
+.desc-container{
+    margin-top: 10rem;
+    width: 980px;
+    height: 219px;
+    padding: 50px;
+    background: #0077B6;
+    border-radius: 30px;
+    
+}
+
+
+.desc-container::before{
+    background: linear-gradient(227.1deg, #90E0EF 13.8%, rgba(217, 217, 255, 0) 92.25%);
+    transform: rotate(-31.92deg);
+    content: '';
+    height: 292px;
+    width: 292px;
+    position: absolute;
+    border-radius:50% ;
+    left:-170px;
+    margin-top: -120px;
+    z-index: -100;
+}
+
+.desc-container::after{
+    background: linear-gradient(227.1deg, #90E0EF 13.8%, rgba(217, 217, 255, 0) 92.25%);
+    transform: rotate(-31.92deg);
+    content: '';
+    height: 192px;
+    width: 192px;
+    position: absolute;
+    border-radius:50% ;
+    right:50px;
+    margin-top: 50px;
+    z-index: -100;
+}
+
+.contact-container{
+    margin-top: 10rem;
+    width: 400px;
+    height: 279px;
+    padding: 50px;
+    background: #0077B6;
+    border-radius: 30px;
+}
+
+.contact-container::before{
+    background: linear-gradient(227.1deg, #90E0EF 13.8%, rgba(217, 217, 255, 0) 92.25%);
+    transform: rotate(-90.92deg);
+    content: '';
+    height: 62px;
+    width: 62px;
+    position: absolute;
+    border-radius:50% ;
+    left:5px;
+    margin-top: 150px;
+    z-index: -100;
+}
+
+.fsosmed-container::before{
+    background: linear-gradient(227.1deg, #90E0EF 13.8%, rgba(217, 217, 255, 0) 92.25%);
+    transform: rotate(-80.92deg);
+    content: '';
+    height: 132px;
+    width: 132px;
+    position: absolute;
+    border-radius:50% ;
+    right:600px;
+    margin-top: -150px;
+    z-index: -100;
+}
+
+.fsosmed-container::after{
+    background: linear-gradient(227.1deg, #90E0EF 13.8%, rgba(217, 217, 255, 0) 92.25%);
+    transform: rotate(-330.92deg);
+    content: '';
+    height: 162px;
+    width: 162px;
+    position: absolute;
+    border-radius:50% ;
+    right:30px;
+    margin-top: -150px;
+    z-index: -100;
+}
+
+.hminum-container{
+    margin-top: 10rem;
+    width: 980px;
+    height: 239px;
+    padding: 50px;
+    background: #0077B6;
+    border-radius: 30px;
+}
+
+.hminum-container::before{
+    background: linear-gradient(227.1deg, #90E0EF 13.8%, rgba(217, 217, 255, 0) 92.25%);
+    transform: rotate(-80.92deg);
+    content: '';
+    height: 232px;
+    width: 232px;
+    position: absolute;
+    border-radius:50% ;
+    left:60px;
+    margin-top: 120px;
+    z-index: -100;
+}
+
+.hminum-container::after{
+    background: linear-gradient(227.1deg, #90E0EF 13.8%, rgba(217, 217, 255, 0) 92.25%);
+    transform: rotate(-80.92deg);
+    content: '';
+    height: 232px;
+    width: 232px;
+    position: absolute;
+    border-radius:50% ;
+    right:60px;
+    margin-top: -400px;
+    z-index: -100;
+}
+
+.hmakan-container{
+    margin-top: 10rem;
+    width: 980px;
+    height: 359px;
+    padding: 50px;
+    background: #0077B6;
+    border-radius: 30px;
+}
+
+.hmakan-container::after{
+    background: linear-gradient(227.1deg, #90E0EF 13.8%, rgba(217, 217, 255, 0) 92.25%);
+    transform: rotate(-80.92deg);
+    content: '';
+    height: 332px;
+    width: 332px;
+    position: absolute;
+    border-radius:50% ;
+    right:60px;
+    margin-top: -200px;
+    z-index: -100;
+}
+
+.hmakan-container::before{
+    background: linear-gradient(227.1deg, #90E0EF 13.8%, rgba(217, 217, 255, 0) 92.25%);
+    transform: rotate(-80.92deg);
+    content: '';
+    height: 332px;
+    width: 332px;
+    position: absolute;
+    border-radius:50% ;
+    left:60px;
+    margin-top: -100px;
+    z-index: -100;
+}
+
+
+.tentang-container h2{
+    color: var(--soft-blue);
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 48px;
+    
+}
+
+.tentang-container ul{
+    list-style-type: disc;
+    margin-top: 7px;
+    line-height: 23px;
+    color: white;
+}
+
+.tentang-container dl{
+    margin-top: 7px;
+    line-height: 23px;
+    color: white;
+}
+
+.tentang-container dt{
+    margin-top: 15px;
+}
+
+.tentang-container dd{
+    margin-left: 20px;
+}
+
+.contact-container, .hminum-container, .hmakan-container{
+    margin-top: 3rem;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 5px;
+  }
+
+th{
+    background-color: var(--blue);
+    color: white;
+}
+
+td{
+    background-color: white;
+}
+
+.down{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.down svg{
+    width: 100px;
+    height: 30px;
+}

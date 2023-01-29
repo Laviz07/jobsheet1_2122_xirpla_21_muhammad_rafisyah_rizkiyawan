@@ -2,7 +2,7 @@ import React from 'react'
 import Home from './component/home/Index'
 import Navbar from './component/navbar/Navbar';
 import Footer from './component/footer/Footer'
-// import About from './component/tentang/Tentang'
+import Tentang from './component/tentang/Tentang';
 import './index.css'
 
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
@@ -69,7 +69,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/"element={<Home/>}/>
-        {/* <Route path="/tentang"element={<About/>}/> */}
+        <Route path="/about"element={<Tentang/>}/>
         {/* <Route path="/portfolio"element={<Portfolio/>}/>
         <Route path="/form"element={<Form/>}/> */}
       </Routes>

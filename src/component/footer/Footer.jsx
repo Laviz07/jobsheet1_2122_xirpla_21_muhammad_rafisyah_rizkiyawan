@@ -4,7 +4,7 @@ import './footer.css'
 const Footer = () => {
   return (
    <footer>
-    <p>© 2023 Rafisyah CamCung</p>
+    <p>© 2023 Jajanan Bungur</p>
     <div >
         
     <ul class="sosmed-foot"><p className='sosmed-text'>Ingin Tetap Terhubung?</p>

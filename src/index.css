@@ -6,11 +6,11 @@
 }
 
 :root{
-    --soft-blue:#CAF0F8;
-    --soft-blue-variant:#90E0EF;
+    /* --soft-blue:#CAF0F8;*/
+    --soft-blue:#90E0EF; 
     --blue:#00B4D8;
-    --dark-blue-variant:#0077B6;
-    --dark-blue:#0C4DA2;
+    --dark-blue:#0077B6;
+    /* --dark-blue:#0C4DA2; */
     --black:#000;
     --black-variant:#202020;
     --white:#fff;
@@ -53,7 +53,7 @@ header{
 
 .button1{
     background: var(--dark-blue);
-    border: 2px solid #00B4D8;
+    border: 2px solid var(--dark-blue);
     border-radius: 10px;
     color: var(--white);
     padding: 5px 25px;
@@ -65,7 +65,7 @@ header{
 
 .button1:hover{
     background: var(--white);
-    border: 2px solid #03045E;
+    border: 2px solid var(--dark-blue);
     border-radius: 10px;
     color: var(--dark-blue);
 }
@@ -74,7 +74,7 @@ header{
     background: var(--blue);
     border: 2px solid #00B4D8;
     border-radius: 10px;
-    color: var(--dark-blue);
+    color: var(--white);
     padding: 5px 25px;
     font-weight: 700;
     font-size: 16px;
@@ -84,7 +84,7 @@ header{
 
 .button2:hover{
     background: var(--white);
-    border: 2px solid #fff;
+    border: 2px solid var(--dark-blue);
     border-radius: 10px;
     color: var(--dark-blue);
 }

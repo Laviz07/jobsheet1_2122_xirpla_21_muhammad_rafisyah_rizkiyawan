@@ -6,19 +6,20 @@ import Samsung from '../../assets/samsung_text.png'
 const Navbar = () => {
   return (
     <header className=' header '>
-        {/* <h3 class="title">PORT<span>FOLIO</span></h3> */}
-        <img src={Samsung} width='150px' height='28px' className='title'/>
+        <h3 class="title">JAJANAN<span> BUNGUR</span></h3>
+        {/* <img src={Samsung} width='150px' height='28px' className='title'/> */}
         <nav class="navbar">
         <ul >
             <li class="drop">
               <Link to='/' class="dropbtn">Home</Link>
             </li>
             <li class="drop"> 
-            <Link to='/tentang' class="dropbtn">About Us</Link>
+            <Link to='/about' class="dropbtn">About Us</Link>
             <ul class="drop-content">
-                <li><Link to='/tentang'><span>Link 1</span> </Link></li>
-                <li><Link to='/tentang'><span>Link 1</span></Link></li>
-                <li><Link to='/tentang'><span>Link 1</span></Link></li>
+                <li><Link to='/about/#desc'><span>Link 1</span> </Link></li>
+                <li><Link to='/about/#contact'><span>Link 1</span></Link></li>
+                <li><Link to='/about/#hminum'><span>Link 1</span></Link></li>
+                <li><Link to='/about/#hmakan'><span>Link 1</span></Link></li>
             </ul>
             </li>
             <li class="drop">
