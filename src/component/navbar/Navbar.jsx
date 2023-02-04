@@ -4,11 +4,25 @@ import {Link} from 'react-router-dom'
 import Samsung from '../../assets/samsung_text.png'
 
 const Navbar = () => {
+
+  function handlenav() {
+    document.getElementById("navbar").classList.toggle("show");
+  }
+  
+  window.onclick = function(e) {
+    if (!e.target.matches('.dropbtn')) {
+    var navbar = document.getElementById("navbar");
+      if (navbar.classList.contains('show')) {
+        navbar.classList.remove('show');
+      }
+    }
+  }
+
   return (
     <header className=' header '>
         <h3 class="title">JAJANAN<span> BUNGUR</span></h3>
         {/* <img src={Samsung} width='150px' height='28px' className='title'/> */}
-        <nav class="navbar">
+        <nav class="navbar" id='navbar'>
         <ul >
             <li class="drop">
               <Link to='/' class="dropbtn">Home</Link>
@@ -16,11 +30,13 @@ const Navbar = () => {
             <li class="drop"> 
             <Link to='/about' class="dropbtn">About Us</Link>
             <ul class="drop-content">
-                <li><Link to='/about/#desc'><span>Link 1</span> </Link></li>
-                <li><Link to='/about/#contact'><span>Link 1</span></Link></li>
-                <li><Link to='/about/#hminum'><span>Link 1</span></Link></li>
-                <li><Link to='/about/#hmakan'><span>Link 1</span></Link></li>
+               
+                <li><a href='about#desc'><span>Deskripsi Umum</span></a></li>
+                <li><a href='about#contact'><span>Contact</span></a></li>
+                <li><a href='about#hminum'><span>Harga Minuman</span></a></li>
+                <li><a href='about#hmakan'><span>Harga Makanan</span></a></li>
             </ul>
+            
             </li>
             <li class="drop">
             <Link to='/portfolio' class="dropbtn">Product</Link>
