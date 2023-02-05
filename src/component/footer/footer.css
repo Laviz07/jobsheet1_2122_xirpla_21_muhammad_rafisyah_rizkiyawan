@@ -26,7 +26,7 @@ footer p{
 .sosmed-foot svg{
     width: 20px;
     height: 20px;
-    fill: black;
+    fill: black; 
 }
 
 .sosmed-foot svg:hover{
@@ -50,13 +50,25 @@ footer p{
         display: grid;
     }
 
+        
+    footer p{
+        margin-left: 0.1rem;
+    }
+
     .sosmed-foot {
-        margin-left: -10px;
+        margin-left: -30px;
         left: 5%;
         margin-top: 10px;
     }
 
-    .up{
-        margin-left: 150px;
+    .sosmed-text{
+        margin-left: 2rem;
+        width: 300px;
+        white-space: nowrap;
     }
+
+    .up{
+        margin-top: -30px;
+    }
+
 }

@@ -172,7 +172,7 @@
     margin-left: 20px;
 }
 
-/* ================================== Prinsip ========================================== */
+/* ================================== Menu ========================================== */
 .prinsip-container{
     margin-top: 7rem;
 }
@@ -258,41 +258,102 @@
 /*=========================== MEDIA QUERIES (SMALL DEVICES)==========================*/
 @media screen and (max-width: 600px){
 
-   .rafi1{
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin-top: 50px;
-    margin-left: 30px;
-   }
+    .wrapper{
+        height: 40vh;
+        width: 100vw;
+        background-size: contain;
+        margin-top: 10rem;
+    }
 
-   .intro-button{
-    margin-left: 40px;
-    margin-top: 20px;
-   }
+    .intro-text{
+        margin-top: 70px;
+        margin-left: -50px;
+    }
 
-   .btnabme{
-    margin-top: 15px;
-   }
+    .name{
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 38px;
+        color:var(--black);
+        margin-top: 14px;
+    } 
 
-   .wrapper{
-    height: 150vh;
-    width: 75%;
-   }
+    .intro-text h2{
+        font-weight: 700;
+        line-height: 19px;
+        margin-top: 14px;
+        font-size: 16px;
+    }
 
-   .me-container{
-    height: 150vh;
-}
-   .me-text{
-    margin-top: 550px;
-    margin-left: -300px;
-   }
+    .intro-button{
+        margin-top: 20px;
+        margin-left: 3px;
+    }
 
-   .me-parag{
-    width: 300px;
-   }
+    .intro-button button{
+        height: 37px;
+        font-size: 15px;
+        padding: 3px 20px;
+    }
 
-   .btnme1{
-    margin-left: 5px;
-   }
+    /* ====================================== About US ============================================== */
+
+    .me-container{
+        width: 120vw;
+        margin-left: -40px;
+    }
+
+    .me-flex{
+        display: grid;
+    }
+
+    .me-img{
+        height: 350px;
+        margin-top: 10px;
+        /* margin-left: 10px; */
+    }
+
+    .me-text{
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    .me-title{
+        text-align: center;
+        margin-left: -45px;
+    }
+
+    .me-parag{
+        width: 300px;
+        line-height: 28px;
+    }
+
+    .me-text::before, 
+    .me-img-cont::before, 
+    .prinsip-container::before, 
+    .prinsip-container::after{
+       display: none;
+    }
+
+    .btn-cont{
+        margin-left: 40px;
+    }
+
+    /* ================================== Menu ========================================== */
+    .prinsip-container{
+        width: 120vw;
+        margin-left: -40px;
+    }
+    
+    .prinsip-item{
+        width: 247px;
+        height: 237px;
+    }
+
+    .prinsip-img{
+        width: 182px;
+        height: 121px;
+        margin-top: 1rem;
+        border-radius: 10px;
+    }
 }

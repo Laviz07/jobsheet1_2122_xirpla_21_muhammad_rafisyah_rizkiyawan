@@ -174,7 +174,7 @@ li.drop {
 }
 
 /*=========================== MEDIA QUERIES (SMALL DEVICES)==========================*/
-@media screen and (max-width: 600px){
+/* @media screen and (max-width: 600px){
     .menu svg{
         display: initial;
     }
@@ -194,7 +194,7 @@ li.drop {
 
     .navbar{
         /* margin-top: 40px;
-        margin-left: -150px; */
+        margin-left: -150px; 
         position: absolute;
         top: 100%;
         left: 0;
@@ -210,4 +210,4 @@ li.drop {
         display: none;
     }
 
-}
+} */
