@@ -1,7 +1,7 @@
 import React from 'react'
 import './navbar.css'
 import {Link} from 'react-router-dom'
-import Samsung from '../../assets/samsung_text.png'
+// import Samsung from '../../assets/samsung_text.png'
 
 const Navbar = () => {
 
