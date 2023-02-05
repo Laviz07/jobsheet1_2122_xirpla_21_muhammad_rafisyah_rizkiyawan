@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import samsung from '../../assets/samsung_desc.png'
 import popice from '../../assets/popice.png'
 
 const About = () => {
