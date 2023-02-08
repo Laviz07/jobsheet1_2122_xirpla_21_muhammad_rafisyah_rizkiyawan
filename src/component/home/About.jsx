@@ -16,7 +16,7 @@ const About = () => {
                 About Us
             </h3>
             <p className='me-parag'>
-            <b>Jajanan Bungur</b> menyediakan berbagai macam <b>minuman dan makanan</b> ringan dengan harga yang <i>murah meriah</i>, mulai dari Rp.500,00 hingga Rp.10.000,00 saja.
+            <b>Jajanan Bungur</b> menyediakan berbagai macam <u>minuman dan makanan</u> ringan dengan harga yang <i>murah meriah</i>, mulai dari Rp.500,00 hingga Rp.10.000,00 saja.
             </p>
             <p className='me-parag'>
            Buka setiap Hari mulai pukul 11.00 WIB - 20.00 WIB <small><del>jika tidak berhalangan</del></small>. Berlokasi di Jl. Bungur 7, no 78, Perumnas 1, Kota Bekasi.

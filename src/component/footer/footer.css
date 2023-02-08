@@ -16,11 +16,15 @@ footer p{
     display: flex;
     margin-left: 43px;
     position: absolute;
-    right: 5%;
+    right: 1%;
 }
 
 .sosmed-foot li{
     margin-left: 13px;
+}
+
+.sosmed-foot p{
+    margin-right: 2rem;
 }
 
 .sosmed-foot svg{

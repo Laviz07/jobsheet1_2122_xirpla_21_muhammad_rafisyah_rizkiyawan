@@ -161,6 +161,43 @@
 }
 
 
+.rules-container{
+    margin-top: 10rem;
+    width: 980px;
+    height: 339px;
+    padding: 50px;
+    background: #0077B6;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.rules-container::before{
+    background: linear-gradient(227.1deg, #90E0EF 13.8%, rgba(217, 217, 255, 0) 92.25%);
+    transform: rotate(-80.92deg);
+    content: '';
+    height: 332px;
+    width: 332px;
+    position: absolute;
+    border-radius:50% ;
+    left:60px;
+    margin-top: -70px;
+    z-index: -100;
+}
+
+
+.rules-container::after{
+    background: linear-gradient(227.1deg, #90E0EF 13.8%, rgba(217, 217, 255, 0) 92.25%);
+    transform: rotate(-250.92deg);
+    content: '';
+    height: 332px;
+    width: 332px;
+    position: absolute;
+    border-radius:50% ;
+    right:60px;
+    margin-top: -270px;
+    z-index: -100;
+}
+
 .tentang-container h2{
     color: var(--soft-blue);
     font-weight: 600;
@@ -176,6 +213,17 @@
     color: white;
 }
 
+
+.tentang-container ol{
+    /* list-style-type: disc; */
+    margin-top: 15px;
+    line-height: 23px;
+    color: white;
+    font-size: 18px;
+    margin-left: 1rem;
+}
+
+
 .tentang-container dl{
     margin-top: 7px;
     line-height: 23px;
@@ -190,7 +238,7 @@
     margin-left: 20px;
 }
 
-.contact-container, .hminum-container, .hmakan-container{
+.contact-container, .hminum-container, .hmakan-container, .rules-container{
     margin-top: 3rem;
 }
 

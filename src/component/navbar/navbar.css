@@ -34,7 +34,7 @@ header{
 }
 
 header ul {
-    display: flex;
+    display: inline;
     margin-left: 100px;
 }
 .drop{
@@ -120,7 +120,8 @@ li.drop {
 
 .sosmed-nav{
     display: flex;
-    margin-left: 43px;
+    /* margin-left: 43px; */
+    text-align: right;
 }
 
 .sosmed-nav li{

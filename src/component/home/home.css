@@ -17,7 +17,8 @@
 }
 
 .intro-text{
-    margin-top: 300px;
+    margin-top: 270px;
+    margin-left: -50px;
 }
 
 .text h2, h1{
@@ -29,12 +30,12 @@
 .intro-text h2{
     font-weight: 700;
     line-height: 29px;
-    margin-top: 14px;
+    margin-top: 30px;
 }
 
 .name{
     font-weight: 700;
-    font-size: 40px;
+    font-size: 60px;
     line-height: 48px;
     color:var(--black);
     margin-top: 14px;
@@ -45,7 +46,7 @@
 }
 
 .intro-button{
-    margin-left: 50px;
+    /* margin-left: 50px; */
     margin-top: 50px;
 }
 
@@ -61,7 +62,7 @@
     color: var(--dark-blue);
 }
 
-.rafi1{
+/* .rafi1{
     position: absolute;
     height: 327px;
     width: 317px;
@@ -73,9 +74,9 @@
     z-index: 10;
 
     border-radius: 100px;
-}
+} */
 
-.intro-img::after{
+/* .intro-img::after{
     background: linear-gradient(214.83deg, #03045E 14.26%, rgba(3, 4, 94, 0) 76.71%);
     transform: rotate(178.32deg);
     content: '';
@@ -86,7 +87,7 @@
     margin-top: -310px;
     border-radius:50% ;
     z-index: 1;
-}
+} */
 
 /* ====================================== About US ============================================== */
 

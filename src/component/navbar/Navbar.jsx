@@ -5,18 +5,18 @@ import {Link} from 'react-router-dom'
 
 const Navbar = () => {
 
-  function handlenav() {
-    document.getElementById("navbar").classList.toggle("show");
-  }
+  // function handlenav() {
+  //   document.getElementById("navbar").classList.toggle("show");
+  // }
   
-  window.onclick = function(e) {
-    if (!e.target.matches('.dropbtn')) {
-    var navbar = document.getElementById("navbar");
-      if (navbar.classList.contains('show')) {
-        navbar.classList.remove('show');
-      }
-    }
-  }
+  // window.onclick = function(e) {
+  //   if (!e.target.matches('.dropbtn')) {
+  //   var navbar = document.getElementById("navbar");
+  //     if (navbar.classList.contains('show')) {
+  //       navbar.classList.remove('show');
+  //     }
+  //   }
+  // }
 
   return (
     <header className=' header '>
@@ -35,15 +35,16 @@ const Navbar = () => {
                 <li><a href='about#contact'><span>Contact</span></a></li>
                 <li><a href='about#hminum'><span>Harga Minuman</span></a></li>
                 <li><a href='about#hmakan'><span>Harga Makanan</span></a></li>
+                <li><a href='about#rules'><span>Peraturan</span></a></li>
             </ul>
             
             </li>
             <li class="drop">
-            <Link to='/portfolio' class="dropbtn">Product</Link>
+            <Link to='/product' class="dropbtn">Product</Link>
                  <ul class="drop-content">
-                    <li><Link to='/portfolio'><span>Link 1</span></Link></li>
-                    <li><Link to='/portfolio'><span>Link 1</span></Link></li>
-                    <li><Link to='/portfolio'><span>Link 1</span></Link></li>
+                    <li><Link to='/product'><span>Link 1</span></Link></li>
+                    <li><Link to='/product'><span>Link 1</span></Link></li>
+                    <li><Link to='/product'><span>Link 1</span></Link></li>
                 </ul>
             </li>
             <li class="drop">
