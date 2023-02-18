@@ -133,48 +133,60 @@ const Tentang = () => {
             <h2>Harga Makanan</h2>
             <table>
                 <tr>
-                    <th>No</th>
-                    <th>Makanan</th>
-                    <th>Harga</th>
+                    <th rowSpan={2}>No</th>
+                    <th colSpan={2}>Makanan</th>
+                    <th rowSpan={2}>Harga</th>
+                </tr>
+                <tr>
+                    <th>Nama</th>
+                    <th>Jumlah / Bungkus</th>
                 </tr>
                 <tr>
                     <td>1</td>
-                    <td>Permen 4 buah</td>
+                    <td>Permen</td>
+                    <td>4</td>
                     <td>Rp500,00</td>
                 </tr>
                 <tr>
                     <td>2</td>
                     <td>Keripik Kaca</td>
-                    <td>Rp500,00</td>
+                    <td>2</td>
+                    <td>Rp1.000,00</td>
                 </tr>
                 <tr>
                     <td>3</td>
                     <td>Mie Lidi</td>
+                    <td>1</td>
                     <td>Rp1.000,00</td>
                 </tr>
                 <tr>
                     <td>4</td>
                     <td>Makaroni</td>
+                    <td>1</td>
                     <td>Rp1.000,00</td>
                 </tr>
                 <tr>
                     <td>5</td>
                     <td>Sosis Bakar</td>
+                    <td>2</td>
                     <td>Rp2.000,00</td>
                 </tr>
                 <tr>
                     <td>6</td>
                     <td>Fishroll</td>
+                    <td>2</td>
                     <td>Rp2.000,00</td>
                 </tr>
                 <tr>
                     <td>7</td>
                     <td>Dumpling</td>
+                    <td>2</td>
                     <td>Rp2.000,00</td>
                 </tr> 
                 <tr>
                     <td>8</td>
                     <td>Dimsum Beku</td>
+                    <td>1</td>
                     <td>Rp10.000,00</td>
                 </tr>
             </table>
