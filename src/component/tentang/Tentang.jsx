@@ -1,30 +1,40 @@
 import React from 'react'
 import './tentang.css'
-import Contact from './Contact'
 import Sosmed from '../../assets/sosmed.png'
 import Rules from '../../assets/rules.png'
 import Kontak from '../../assets/kontak.png'
 import Warung from '../../assets/warung.png'
+import Maps from '../../assets/gmaps.png'
 
 const Tentang = () => {
 
   return (
     <div className='container tentang-container'>
-        <div className='desc-container' id='desc'>
-            <h2>Deskripsi Umum</h2>
-            <div style={{display:'flex'}}>
-                <ul style={{listStyleType:'square'}}>
-                    <li><b>Nama</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Jajanan Bungur</li>
-                    <li><b>Lokasi</b> &nbsp;&nbsp;&nbsp;&nbsp;: Jl. Bungur 7 No.78, RT.012/RW.007, Jakasampurna, Kecamatan Bekasi Barat, Kota Bekasi, Jawa Barat</li>
-                    <li><b>Berdiri</b> &nbsp;&nbsp;&nbsp;&nbsp;: 9 Januari 2010</li>
-                    <li><b>Jenis</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Home Industry</li>
-                    <li><b>Produk</b> &nbsp;&nbsp;&nbsp;: Jajanan Anak</li>
-                </ul>
 
-                <div>
-                    <img src={Warung} style={{height:"250px", marginRight:'-10px', marginTop:'-50px' }}/>
+        <div style={{display:'flex'}}>
+            <div className='desc-container' id='desc'>
+                <h2>Deskripsi Umum</h2>
+                <div style={{display:'flex'}}>
+                    <ul style={{listStyleType:'square'}}>
+                        <li><b>Nama</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Jajanan Bungur</li>
+                        <li><b>Lokasi</b> &nbsp;&nbsp;&nbsp;&nbsp;: Jl. Bungur 7 No.78, RT.012/RW.007, Jakasampurna, Kecamatan Bekasi Barat, Kota Bekasi, Jawa Barat</li>
+                        <li><b>Berdiri</b> &nbsp;&nbsp;&nbsp;&nbsp;: 9 Januari 2010</li>
+                        <li><b>Jenis</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Home Industry</li>
+                        <li><b>Produk</b> &nbsp;&nbsp;&nbsp;: Jajanan Anak</li>
+                    </ul>
+
+                    {/* <div>
+                        <img src={Warung} style={{height:"250px", marginRight:'-10px', marginTop:'-50px' }}/>
+                    </div> */}
                 </div>
             </div>
+
+            <a href='https://goo.gl/maps/uPEUjiMqKrqM9xKN7' target={'_blank'}>
+                <div className='map-container'>
+                    <img src={Maps} />
+                    <h3>Our Location</h3>
+                </div>
+            </a>
         </div>
 
         <div className='down'>

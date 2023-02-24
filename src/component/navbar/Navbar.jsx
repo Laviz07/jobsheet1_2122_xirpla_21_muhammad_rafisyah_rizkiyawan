@@ -42,9 +42,8 @@ const Navbar = () => {
             <li class="drop">
             <Link to='/product' class="dropbtn">Product</Link>
                  <ul class="drop-content">
-                    <li><Link to='/product'><span>Link 1</span></Link></li>
-                    <li><Link to='/product'><span>Link 1</span></Link></li>
-                    <li><Link to='/product'><span>Link 1</span></Link></li>
+                    <li><a href='product#product'><span>Top Product</span></a></li>
+                    <li><a href='product#video'><span>Videos</span></a></li>
                 </ul>
             </li>
             <li class="drop">
