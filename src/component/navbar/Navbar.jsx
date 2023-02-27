@@ -49,9 +49,8 @@ const Navbar = () => {
             <li class="drop">
             <Link to='/form' class="dropbtn">Form</Link>
                  <ul class="drop-content">
-                    <li><Link to='/form'><span>Link 1</span></Link></li>
-                    <li><Link to='/form'><span>Link 1</span></Link></li>
-                    <li><Link to='/form'><span>Link 1</span></Link></li>
+                    <li><a href='form#add'><span>Tambah Product</span></a></li>
+                    <li><a href='form#req'><span>Request</span></a></li>
                 </ul>
             </li>
         </ul>
