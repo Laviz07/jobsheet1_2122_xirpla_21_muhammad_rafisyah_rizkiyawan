@@ -64,7 +64,7 @@ form{
     border: 3px solid #0077B6;
     border-radius: 20px;
     margin-top: 3rem;
-    width: 70%;
+    width: 50%;
     margin: auto;
 }
 
@@ -74,10 +74,14 @@ form{
     line-height: 44px;
 }
 
-.form-container input[type=text], input[type=date], input[type=number], input[type=email], textarea {
+.form-container input[type=text], 
+input[type=date], 
+input[type=number], 
+input[type=email], 
+textarea {
     border: 3px solid var(--soft-blue);
     border-radius: 15px;
-    padding: 18px 20px;
+    padding: 14px 20px;
     margin-top: 0.5rem;
     width: 93%;
     font-size: 18px;
