@@ -11,8 +11,8 @@ const Tentang = () => {
   return (
     <div className='container tentang-container'>
 
-        <div style={{display:'flex'}}>
-            <div className='desc-container' id='desc'>
+        <div style={{display:'flex'}} id='desc'>
+            <div className='desc-container' >
                 <h2>Deskripsi Umum</h2>
                 <div style={{display:'flex'}}>
                     <ul style={{listStyleType:'square'}}>
