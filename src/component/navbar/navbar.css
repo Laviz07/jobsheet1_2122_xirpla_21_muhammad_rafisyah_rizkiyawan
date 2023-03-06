@@ -112,11 +112,9 @@ li.drop {
     color: var(--white);
 } */
 
-.drop:hover .drop-content {
+.drop:hover > .drop-content {
     display: block;
   }
-
-
 
 .sosmed-nav{
     display: flex;
@@ -157,7 +155,7 @@ li.drop {
 
 .dropdown-content a:hover {background-color: #f1f1f1;}
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover > .dropdown-content {
   display: block;
 }
 

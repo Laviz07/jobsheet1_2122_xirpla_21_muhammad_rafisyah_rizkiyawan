@@ -107,7 +107,25 @@
     /* transform: rotate(7deg); */
     margin-top: 100px;
     transition: var(--transition);
+    animation: botol 3s linear infinite;
+    position: relative;
 }
+
+
+@keyframes botol{
+    0%{
+        top: 0px;
+    }
+
+    50%{
+        top: 20px;
+    }
+
+    100%{
+        top: 0px;
+    }
+}
+
 
 .me-img-cont::before{
     background: linear-gradient(227.1deg, #90E0EF 13.8%, rgba(217, 217, 255, 0) 92.25%);
@@ -313,6 +331,7 @@
         margin-top: 10px;
         /* margin-left: 10px; */
     }
+
 
     .me-text{
         margin-top: 40px;
