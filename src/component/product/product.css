@@ -37,13 +37,15 @@ audio::-webkit-media-controls-return-to-realtime-button{
 }
 
 .video-container{
-    margin-top: 10rem
+    margin-top: 10rem;
+    
 }
 
 .video-card{
     margin-top: 2rem;
-    display: flex;
+    display: grid;
     z-index: 10;
+    margin-left: 13rem;
 }
 
 .ytb{
@@ -63,7 +65,8 @@ audio::-webkit-media-controls-return-to-realtime-button{
     border: 3px solid #0077B6;
     border-radius: 10px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    margin-left: 2rem;
+    margin-top: 3rem;
+    /* margin-left: 2rem; */
     padding: 15px;
     z-index: 10;
 }
@@ -72,11 +75,11 @@ audio::-webkit-media-controls-return-to-realtime-button{
     background: linear-gradient(227.1deg, #90E0EF 13.8%, rgba(217, 217, 255, 0) 92.25%);
     transform: rotate(-121.97deg);
     content: '';
-    height: 92px;
-    width: 92px;
+    height: 292px;
+    width: 292px;
     position: absolute;
     border-radius:50% ;
-    left:-50px;
+    left:-380px;
     margin-top: 255px;
     z-index: 1;
 }
@@ -85,11 +88,11 @@ audio::-webkit-media-controls-return-to-realtime-button{
     background: linear-gradient(227.1deg, #90E0EF 13.8%, rgba(217, 217, 255, 0) 92.25%);
     transform: rotate(-121.97deg);
     content: '';
-    height: 85px;
-    width: 85px;
+    height: 185px;
+    width: 185px;
     position: absolute;
     border-radius:50% ;
-    right:80px;
+    right:-300px;
     margin-top: -385px;
     z-index: 1;
 }
@@ -124,8 +127,8 @@ audio::-webkit-media-controls-return-to-realtime-button{
     background: linear-gradient(227.1deg, #90E0EF 13.8%, rgba(217, 217, 255, 0) 92.25%);
     transform: rotate(-121.97deg);
     content: '';
-    height: 292px;
-    width: 292px;
+    height: 415px;
+    width: 415px;
     position: absolute;
     border-radius:50% ;
     left:-50px;
@@ -135,15 +138,15 @@ audio::-webkit-media-controls-return-to-realtime-button{
 
 .allprod-container::after{
     background: linear-gradient(227.1deg, #90E0EF 13.8%, rgba(217, 217, 255, 0) 92.25%);
-    transform: rotate(-121.97deg);
+    transform: rotate(61.5deg);
     content: '';
-    height: 315px;
-    width: 315px;
+    height: 292px;
+    width: 292px;
     position: absolute;
     border-radius:50% ;
-    right:150px;
-    margin-top: -385px;
-    z-index: 1;
+    right:65px;
+    margin-top: -425px;
+    z-index: -1;
 }
 
 /* .allprod-item{

@@ -25,7 +25,7 @@ const Product = () => {
 
     <div id='video' >
       <div style={{marginTop:'-4rem'}}>
-        <div className='video-container'>
+        <div className='video-container container'>
           <h2>Our Video</h2>
 
         <div className='video-card'>
