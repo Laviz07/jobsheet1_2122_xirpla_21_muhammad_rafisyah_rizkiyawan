@@ -4,6 +4,11 @@ import Allproduct from './allproduct'
 import Song from '../../assets/song.mp3'
 import Iklan from '../../assets/Iklan.mp4'
 
+import img1 from '../../assets/milo.jpeg'
+import img2 from '../../assets/sosis bakar.jpg'
+import img3 from '../../assets/keripca.jpeg'
+import img4 from '../../assets/poki.jpg'
+
 const Product = () => {
   return (
     <div className='container product-container'>
@@ -22,6 +27,13 @@ const Product = () => {
         </div>
       </div>
       </div>
+
+      {/* <div className='fadeimg'>
+        <img src={img1} className="fdimg1" />
+        <img src={img2} className="fdimg2" />
+        <img src={img3} className="fdimg3" />
+        <img src={img4} className="fdimg4" />
+      </div> */}
 
     <div id='video' >
       <div style={{marginTop:'-4rem'}}>
