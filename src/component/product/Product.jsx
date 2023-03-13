@@ -14,7 +14,7 @@ const Product = () => {
     <div className='container product-container'>
 
       <audio controls loop
-      // autoPlay
+      autoPlay
       >
         <source src={Song} type="audio/ogg"/>
       </audio>
