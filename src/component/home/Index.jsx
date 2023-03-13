@@ -17,8 +17,12 @@ const Index = () => {
       </div>
     </div>
   </div>
-  <div id='us'><About/></div>
-  <div id='prisip'><Prinsip/></div>
+  <div id='us'> 
+    <div className='revealu'><About /></div>
+  </div>
+  <div id='menu' >
+    <div className='revealu'><Prinsip/></div>
+  </div>
   </div>
   )
 }

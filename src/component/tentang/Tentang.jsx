@@ -12,6 +12,7 @@ const Tentang = () => {
     <div className='container tentang-container'>
 
         <div style={{display:'flex'}} id='desc'>
+        <div style={{marginTop:"3rem"}}>
             <div className='desc-container' >
                 <h2>Deskripsi Umum</h2>
                 <div style={{display:'flex'}}>
@@ -27,9 +28,10 @@ const Tentang = () => {
                         <img src={Warung} style={{height:"250px", marginRight:'-10px', marginTop:'-50px' }}/>
                     </div> */}
                 </div>
-            </div>
+            </div></div>
+        
 
-            <a href='https://goo.gl/maps/uPEUjiMqKrqM9xKN7' target={'_blank'}>
+            <a href='https://goo.gl/maps/uPEUjiMqKrqM9xKN7' target={'_blank'} style={{marginTop:"3rem"}}>
                 <div className='map-container'>
                     <img src={Maps} />
                     <h3>Our Location</h3>
@@ -45,8 +47,8 @@ const Tentang = () => {
         </a>
         </div>
 
-        <div id='contact'>
-        <div style={{marginTop:'5rem', display:'flex'}} >
+        <div id='contact' >
+        <div style={{marginTop:'5rem', display:'flex'}} className='revealu'>
         <div className='contact-container' >
             <h2>Contact Person</h2>
             <div style={{display:'flex'}}>
@@ -94,10 +96,10 @@ const Tentang = () => {
         </a>
         </div>
 
-        <div id='hminum'>
-        <div style={{marginTop:'7rem'}} >
+        <div id='hminum' >
+        <div style={{marginTop:'7rem'}} className='revealu'>
         <div className='hminum-container' >
-            <h2>Harga Minuman</h2>
+            <h2 style={{textAlign:'center'}}>Harga Minuman</h2>
             <table>
                 <tr>
                     <th>No</th>
@@ -137,10 +139,10 @@ const Tentang = () => {
         </a>
         </div>
 
-        <div id='hmakan'>
-        <div style={{marginTop:'4.5rem'}} >
+        <div id='hmakan' >
+        <div style={{marginTop:'4.5rem'}} className='revealu'>
         <div className='hmakan-container' >
-            <h2>Harga Makanan</h2>
+            <h2 style={{textAlign:'center'}}>Harga Makanan</h2>
             <table>
                 <tr>
                     <th rowSpan={2}>No</th>
@@ -212,10 +214,10 @@ const Tentang = () => {
         </a>
         </div>
 
-        <div id='rules'>
-        <div style={{marginTop:'3rem'}} >
+        <div id='rules' >
+        <div style={{marginTop:'3rem'}} className='revealu'>
             <div className='rules-container'>
-                <h2 >Aturan Saat Berada Di Jajanan Bungur</h2>
+                <h2 style={{textAlign:'center'}}>Aturan Saat Berada Di Jajanan Bungur</h2>
 
                 <div style={{display:'flex'}}>
                 <ol>

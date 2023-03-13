@@ -35,14 +35,14 @@ const Product = () => {
         <img src={img4} className="fdimg4" />
       </div> */}
 
-    <div id='video' >
+    <div id='video' className='revealu'>
       <div style={{marginTop:'-4rem'}}>
         <div className='video-container container'>
           <h2>Our Video</h2>
 
         <div className='video-card'>
             <div className='ytb'>
-              <iframe width="480" height="245" 
+              <iframe width="600" height="365" 
                 src="https://www.youtube.com/embed/MwqZ8UaIsYw" 
                 title="YouTube video player" 
                 frameborder="0" 
@@ -51,7 +51,7 @@ const Product = () => {
             </div>
 
             <div className='localvid'>
-              <video width="480" height="245" controls>
+              <video width="600" height="365"  controls>
                 <source src={Iklan} type="video/mp4"/>
               </video>
             </div>

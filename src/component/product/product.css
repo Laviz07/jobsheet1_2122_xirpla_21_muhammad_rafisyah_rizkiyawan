@@ -2,8 +2,8 @@
     margin-top: auto;
     display:flex; flex-direction:column;
     flex: 1;
-    min-height: 100vh;
-    margin-top: 2rem;
+    /* min-height: 100vh; */
+    margin-top: -2rem;
 }
 
 
@@ -16,17 +16,25 @@
 }
 
 audio{
-    margin-top: 12rem;
+    margin-top: 15rem;
     rotate: -90deg;
-    right: -5rem;
+    right: -1rem;
+    /* bottom: 9rem; */
     position: fixed;
-   /* border: 2px solid #0077B6; */
+    width: 175px;
+    border: 3px solid var(--blue) ; 
+    border-radius: 30px;
+    z-index: 50;
 }
 
+audio::-webkit-media-controls-panel{
+    background-color:  transparent;
+    -webkit-justify-content: center;
+}
 
 audio::-webkit-media-controls-play-button{
     rotate: 90deg;
-}
+} 
 
 audio::-webkit-media-controls-mute-button{
     rotate: 90deg;
@@ -34,6 +42,20 @@ audio::-webkit-media-controls-mute-button{
 
 audio::-webkit-media-controls-return-to-realtime-button{
     rotate: 90deg;
+}
+
+/* Removes the timeline */
+audio::-webkit-media-controls-timeline {
+    display: none !important;
+}
+
+/* Removes the time stamp */
+audio::-webkit-media-controls-current-time-display {
+    display: none;
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+    display: none;
 }
 
 .video-container{
@@ -45,14 +67,14 @@ audio::-webkit-media-controls-return-to-realtime-button{
     margin-top: 2rem;
     display: grid;
     z-index: 10;
-    margin-left: 13rem;
+    margin-left: 10rem;
 }
 
 .ytb{
-    width: 479px;
-    height: 254px;
+    width: 600px;
+    height: 365px;
     border: 3px solid #0077B6;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
     border-radius: 10px;
     display: block;
     padding: 15px;
@@ -60,11 +82,11 @@ audio::-webkit-media-controls-return-to-realtime-button{
 }
 
 .localvid{
-    width: 479px;
-    height: 254px;
+    width: 600px;
+    height: 365px;
     border: 3px solid #0077B6;
     border-radius: 10px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
     margin-top: 3rem;
     /* margin-left: 2rem; */
     padding: 15px;
@@ -92,7 +114,7 @@ audio::-webkit-media-controls-return-to-realtime-button{
     width: 185px;
     position: absolute;
     border-radius:50% ;
-    right:-300px;
+    right:-250px;
     margin-top: -385px;
     z-index: 1;
 }
@@ -146,7 +168,7 @@ audio::-webkit-media-controls-return-to-realtime-button{
     border-radius:50% ;
     right:65px;
     margin-top: -425px;
-    z-index: -1;
+    z-index: 1;
 }
 
 /* .allprod-item{

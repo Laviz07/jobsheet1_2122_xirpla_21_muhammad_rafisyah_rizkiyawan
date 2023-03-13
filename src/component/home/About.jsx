@@ -22,8 +22,14 @@ const About = () => {
            Buka setiap Hari mulai pukul 11.00 WIB - 20.00 WIB <small><del>jika tidak berhalangan</del></small>. Berlokasi di Jl. Bungur 7, no 78, Perumnas 1, Kota Bekasi.
             </p>
             
-            <div className='btn-cont'>
-            <Link to='/about/#'><button className='button1 ' >See More About Us</button></Link>
+            <div style={{display:"flex"}}>
+              <div className='btn-cont'>
+              <a href='/about#desc'><button className='button1 ' >See More About Us</button></a>
+              </div>
+
+              <div className='btn-cont' style={{marginLeft:"2rem"}}>
+              <a href='#menu'><button className='button1 ' >Lets Check Our Menu</button></a>
+              </div>
             </div>
           
           </div>
