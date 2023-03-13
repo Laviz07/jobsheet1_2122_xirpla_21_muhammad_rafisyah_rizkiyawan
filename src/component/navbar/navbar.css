@@ -34,11 +34,19 @@ header{
 .title span{
     color: var(--dark-blue);
 }
-
+/* 
 header ul {
-    display: inline;
-    margin-left: 100px;
+    display: inline-block;
+} */
+
+.nav-pc{
+    display: inline-block;
+    /* vertical-align: middle; */
+    position: absolute;
+    left: 0;
+    right: 0;
 }
+
 .drop{
     width: 138px;
 }
@@ -121,7 +129,8 @@ li.drop {
 .sosmed-nav{
     display: flex;
     /* margin-left: 43px; */
-    text-align: right;
+    position: absolute;
+    right: 20px;
 }
 
 .sosmed-nav li{
@@ -178,16 +187,88 @@ li.drop {
     display: none;
 }
 
+#nav-check{
+    display: none;
+}
+
 /*=========================== MEDIA QUERIES (SMALL DEVICES)==========================*/
 @media screen and (max-width: 600px){
-    
+
     .sosmed-nav{
         display: none;
     }
 
-    .drop-content{
+     /* .drop-content {
         display: none;
-    }
+      } */
 
+     .nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+      }
+
+      .nav-btn > label {
+        display: inline-block;
+        width: 33px;
+        height: 33px;
+        padding: 13px;
+      }
+
+      .nav-btn > label > span {
+        display: block;
+        width: 33px;
+        height: 10px;
+        border-top: 2px solid #000000;
+        
+      }
+
+      .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+        background-color: var(--soft-blue);
+      }
+
+      .nav-pc {
+        position: absolute;
+        display: grid;
+        width: 100%;
+        background-color: white;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 50px;
+        /* left: -100px; */
+        
+      }
+
+      .nav-pc > .drop{
+        /* background-color: red; */
+         position: relative;
+        /* left: 30%; */
+        /* border-bottom: 2px solid black; */
+        width: 85%;
+      }
+
+
+      .nav-pc >.drop > a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        left: auto;
+        right: auto;
+      }
+     
+      #nav-check:not(:checked) ~ .nav-pc {
+        height: 0px;
+      }
+
+      #nav-check:checked ~ .nav-pc {
+        height: calc(100vh - 75vh);
+        overflow-y: auto;
+      }
+
+      #nav-check:checked ~ .nav-pc > .drop:hover > .drop-content{
+        display: none;
+      }
     
 }

@@ -25,6 +25,16 @@ const Navbar = () => {
 
         <nav class="navbar" id='navbar'>
 
+          <input type="checkbox" id="nav-check"/>
+
+          <div class="nav-btn">
+            <label for="nav-check">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+          </div>
+
         <ul className='nav-pc' >
             <li class="drop">
               <Link to='/' class="dropbtn">Home</Link>

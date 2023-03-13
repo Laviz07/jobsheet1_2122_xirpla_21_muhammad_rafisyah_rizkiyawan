@@ -51,7 +51,7 @@ footer p{
 /*=========================== MEDIA QUERIES (SMALL DEVICES)==========================*/
 @media screen and (max-width: 600px){
     footer{
-        display: grid;
+        display: none;
     }
 
         

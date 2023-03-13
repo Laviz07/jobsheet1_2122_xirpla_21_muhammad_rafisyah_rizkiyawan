@@ -201,7 +201,7 @@
     margin-top: 30px;
 }
 
-.btnme1{
+.btna{
     margin-left: 20px;
 }
 
@@ -232,6 +232,13 @@
     justify-content: center;
     margin-top: 20px;
 }
+
+/* .prinsip-content{
+    display: grid;
+    grid-template-columns: repeat(3, 10fr);
+    gap: 25px;
+    text-align: center;
+} */
 
 .prinsip-container::before{
     background: linear-gradient(227.1deg, #90E0EF 13.8%, rgba(217, 217, 255, 0) 92.25%);
@@ -295,7 +302,7 @@
         height: 40vh;
         width: 100vw;
         background-size: contain;
-        margin-top: 10rem;
+        margin-top: 8rem;
     }
 
     .intro-text{
@@ -333,7 +340,7 @@
 
     .me-container{
         width: 120vw;
-        margin-left: -40px;
+        /* margin-left: -40px; */
     }
 
     .me-flex{
@@ -371,16 +378,28 @@
 
     .btn-cont{
         margin-left: 40px;
+        display: grid;
+    }
+
+    .btna{
+        margin-left: 0;
+        height: 60px;
+    }
+
+    .btnb{
+        margin-left: 3.5%;
+        height: 60px;
     }
 
     /* ================================== Menu ========================================== */
-    .prinsip-container{
-        width: 120vw;
-        margin-left: -40px;
-    }
+   .prinsip-content{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+   }
     
     .prinsip-item{
-        width: 247px;
+        width: 267px;
         height: 237px;
     }
 
@@ -390,4 +409,4 @@
         margin-top: 1rem;
         border-radius: 10px;
     }
-}
+} 

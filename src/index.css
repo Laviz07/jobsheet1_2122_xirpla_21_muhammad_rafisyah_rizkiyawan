@@ -117,7 +117,7 @@ header{
     opacity: 1;
   }
 
-  .revealu{
+  /* .revealu{
     position: relative;
     transform: translatey(120px); 
     opacity: 0;
@@ -127,7 +127,7 @@ header{
   .revealu.active{
     transform: translatey(0);
     opacity: 1;
-  }
+  } */
 
   .openl{
     animation: open-left 700ms ease-out;
