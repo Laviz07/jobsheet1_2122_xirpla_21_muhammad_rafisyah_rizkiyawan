@@ -1,6 +1,8 @@
 import React from 'react'
 import './navbar.css'
 import {Link} from 'react-router-dom'
+import Login from '../form/Login'
+import '../form/form.css'
 // import Samsung from '../../assets/samsung_text.png'
 
 const Navbar = () => {
@@ -20,6 +22,7 @@ const Navbar = () => {
 
   return (
     <header className=' header '>
+      
         <h3 class="title">JAJANAN<span> BUNGUR</span></h3>
         {/* <img src={Samsung} width='150px' height='28px' className='title'/> */} 
 
@@ -62,7 +65,7 @@ const Navbar = () => {
             <Link to='/form' class="dropbtn">Form</Link>
                  <ul class="drop-content">
                     <li><a href='form#add'><span>Tambah Product</span></a></li>
-                    <li><a href='form#req'><span>Request</span></a></li>
+                    <li><a href='request#req'><span>Kritik & Saran</span></a></li>
                 </ul>
             </li>
         </ul>
@@ -92,7 +95,8 @@ const Navbar = () => {
             </li>
         </ul>
 
-       
+    
+
     </header>
   )
 }

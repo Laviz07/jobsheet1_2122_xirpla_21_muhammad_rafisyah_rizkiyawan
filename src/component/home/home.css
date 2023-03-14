@@ -17,12 +17,12 @@
 }
 
 .intro-text{
-    margin-top: 270px;
-    margin-left: -50px;
+    margin-top: 220px;
+    margin-left: -70px;
 }
 
 .text h2, h1{
-    z-index: 10;
+    z-index: 5;
     position: relative;
     margin-left: 50px;
 }
@@ -46,7 +46,7 @@
 }
 
 .intro-button{
-    /* margin-left: 50px; */
+    margin-left: -1rem;
     margin-top: 50px;
 }
 
@@ -328,6 +328,7 @@
     .intro-button{
         margin-top: 20px;
         margin-left: 3px;
+        /* display: flex; */
     }
 
     .intro-button button{

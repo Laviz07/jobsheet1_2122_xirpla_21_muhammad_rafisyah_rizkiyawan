@@ -2,6 +2,8 @@ import React from 'react'
 import './home.css'
 import About from './About'
 import Prinsip from './Prinsip'
+import Login from '../form/Login'
+import '../form/form.css'
 
 const Index = () => {
   return (
@@ -14,6 +16,10 @@ const Index = () => {
       </div>
       <div class="intro-button ">
           <a href='#us'><button class="button1">Scroll Down</button></a>
+          
+      </div>
+      <div style={{marginTop:'-2.7rem', marginLeft:"10rem"}}>
+        <Login/>
       </div>
     </div>
   </div>

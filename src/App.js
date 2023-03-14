@@ -5,6 +5,7 @@ import Footer from './component/footer/Footer'
 import Tentang from './component/tentang/Tentang';
 import Product from './component/product/Product';
 import Form from './component/form/Form';
+import Request from './component/form/Request';
 import './index.css'
 
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
@@ -76,6 +77,7 @@ const App = () => {
         <Route path="/about"element={<Tentang/>}/>
         <Route path="/product"element={<Product/>}/>
         <Route path="/form"element={<Form/>}/>
+        <Route path="/request"element={<Request/>}/>
       </Routes>
       <Footer/>
     </>
